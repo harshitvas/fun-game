@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="display">
+        <h1 class="player">
+            Player: <span id="playerDisplay"></span>
+        </h1>
+        <h1 class="computer">
+            Computer: <span id="computerDisplay"></span>
+        </h1>
+        <h1 class="result">
+            Result: <span id="resultDisplay"></span>
+        </h1>
+        <div class="buttons">
+            <button id="rock" class="btn" onclick="generate(this)">Rock</button>
+            <button id="paper" class="btn" onclick="generate(this)">Paper</button>
+            <button id="scissor" class="btn" onclick="generate(this)">Scissor</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

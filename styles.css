@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.display{
+    background-color: lightgray;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.btn{
+    font-size: 1.25rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.player{
+    color: blue;
+}
+
+.computer{
+    color: red;
+}
